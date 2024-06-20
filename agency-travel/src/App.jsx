@@ -4,9 +4,7 @@ import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import Navbar from './composantes/navbar/navbar'
 import Accueil from './pages/accueil'
 import Vols  from './pages/vols'
-
-
-
+// import Connexion  from "./pages/connexion"; 
 
 export default function App() {
   return (
@@ -16,6 +14,7 @@ export default function App() {
      <Routes>
        <Route path="/" element={<Accueil />} />
        <Route path="/vols" element={<Vols />} />
+       <Route path="./connexion" element={<Connexion />} />
      </Routes>
    </main>
 

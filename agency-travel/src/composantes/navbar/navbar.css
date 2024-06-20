@@ -13,6 +13,7 @@
     align-items: center;
     padding: 20px;
     width: 100%;
+    position: relative;
     box-shadow: 5px 5px rgba(128, 128, 128, 0.178), -1em 0 .4em rgba(0, 0, 0, 0.776);
 }
 
